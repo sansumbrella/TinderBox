@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>536</width>
+    <width>653</width>
     <height>392</height>
    </rect>
   </property>
@@ -360,6 +360,18 @@ background-color: red;
               <iconset resource="../TinderBox.qrc">
                <normaloff>:/icons/xcode_ios.png</normaloff>
                <selectedoff>:/icons/xcode_ios_selected.png</selectedoff>:/icons/xcode_ios.png</iconset>
+             </property>
+            </item>
+            <item>
+             <property name="text">
+              <string>XCode tvOS</string>
+             </property>
+             <property name="icon">
+              <iconset resource="../TinderBox.qrc">
+               <normaloff>:/icons/xcode_ios.png</normaloff>
+               <normalon>:/icons/xcode_ios.png</normalon>
+               <selectedoff>:/icons/xcode_ios_selected.png</selectedoff>
+               <selectedon>:/icons/xcode_ios_selected.png</selectedon>:/icons/xcode_ios.png</iconset>
              </property>
             </item>
             <item>

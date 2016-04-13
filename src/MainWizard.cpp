@@ -32,6 +32,7 @@
 #include "CinderBlockManager.h"
 #include "GeneratorXcodeMac.h"
 #include "GeneratorXcodeIos.h"
+#include "GeneratorXcodeTVOS.h"
 #include "GeneratorVc2015Winrt.h"
 #include "GeneratorVc2013.h"
 #include "Util.h"
@@ -232,6 +233,8 @@ void MainWizard::generateProject()
 			gen.addGenerator( new GeneratorXcodeMac() );
 		if( mWizardPageMain->isXcodeIosSelected() )
 			gen.addGenerator( new GeneratorXcodeIos() );
+        if( mWizardPageMain->isXcodeTVosSelected() )
+            gen.addGenerator( new GeneratorXcodeTVOS() );
 		if( mWizardPageMain->isVc2013Selected() ) {
 			GeneratorVc2013::Options options;
 			options.enableWin32( mWizardPageEnvOptions->isVc2013Win32Selected() );

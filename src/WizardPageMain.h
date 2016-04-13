@@ -54,6 +54,7 @@ public:
 	void	enablePlatform( size_t platform, bool enable );
 	bool	isXcodeSelected() const;
 	bool	isXcodeIosSelected() const;
+    bool    isXcodeTVosSelected() const;
 	bool	isVc2013WinrtSelected() const;
 	bool	isVc2013Selected() const;
 
